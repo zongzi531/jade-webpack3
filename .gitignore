@@ -1,0 +1,12 @@
+/controllers
+/dist
+/doc
+/lib
+/models
+/routes
+/test
+
+/nodeServerStart.bat
+
+
+/node_modules

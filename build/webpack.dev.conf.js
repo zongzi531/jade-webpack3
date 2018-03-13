@@ -19,6 +19,10 @@ module.exports = merge(baseWebpackConfig, {
     host: dev.host,
     port: dev.port,
     compress: true,
+    overlay: {
+      warnings: true,
+      errors: true
+    }
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
